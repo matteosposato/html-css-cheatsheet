@@ -1,11 +1,20 @@
 /*Style of fundamentals elements of the webpage*/
 
 body {
-    background-image: url("https://i.redd.it/wmf4pf98d4l61.png");
+    background-color: blanchedalmond;
 }
 
 /*Style of the header, with navigation menu*/
 header {
+    border-bottom: 1px fuchsia dotted;
+    background-color: coral;
+    background-position: 0%;
+    color: darksalmon;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 0;
+    display: fixed;
 
 }
 
@@ -14,3 +23,8 @@ nav {
 }
 
 /*Style of the Table*/
+
+table {
+    position: static;
+    display: block;
+}
