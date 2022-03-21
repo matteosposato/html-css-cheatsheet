@@ -41,11 +41,10 @@ main {
     position: relative;
     justify-content: center;
     padding: 50px;
-    margin-top: 40px;
     align-self: center;
     display: flex;
     justify-content: center;
-    justify-items: legacy;
+    margin: 50px;
 }
 
 table {
@@ -56,16 +55,11 @@ table {
 }
 
 th{
-    /*font-family: 'Comfortaa', cursive;*/
+    border-radius: 5px;
     font-family: 'Hubballi', cursive;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 3px 25px;
     font-size: 25px;
     font-weight: bold;
-}
-
-th_description {
-    width: fit-content;
 }
 
 td {
