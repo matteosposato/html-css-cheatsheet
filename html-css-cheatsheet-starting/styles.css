@@ -1,30 +1,104 @@
 /*Style of fundamentals elements of the webpage*/
 
 body {
-    background-color: blanchedalmond;
+    background-color: #e0ffcd;
+    padding: 0%;
+    display: static;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 /*Style of the header, with navigation menu*/
 header {
-    border-bottom: 1px fuchsia dotted;
-    background-color: coral;
-    background-position: 0%;
-    color: darksalmon;
-    font-style: oblique;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 65px;
+    width: 100%;
+    background-color: #ffcab0;
+    color: #ffebbb;
+    display: block;
     position: absolute;
-    top: 0;
-    display: fixed;
+    top: 0%;
+    left: 0%;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+    align-self: center;
+    box-shadow: 0 10px 5px #fdffcd;
 
+    text-align: center;
+}
+
+abbr {
+    text-decoration: none;
 }
 
 nav {
-
+    float: right;
+    padding-right: 25px;
 }
 
 /*Style of the Table*/
 
+main {
+    position: relative;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 40px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    justify-items: legacy;
+}
+
 table {
-    position: static;
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+th{
+    /*font-family: 'Comfortaa', cursive;*/
+    font-family: 'Hubballi', cursive;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+th_description {
+    width: fit-content;
+}
+
+td {
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+th.selector {
+    background-color: #a8e6cf;
+    color: #fdffad;
+}
+
+td.selector {
+    background-color: #fdffad;
+    color: #a8e6cf;
+}
+
+th.example {
+    background-color: #ffaaa5;
+    color: #ffd3b6;
+}
+
+td.example {
+    background-color: #ffd3b6;
+    color: #ffaaa5;
+}
+
+th.exampledescr {
+    background-color: #fff195;
+    color: #bae8e8;
+}
+
+td.exampledescr {
+    background-color: #bae8e8;
+    color: #fff195;
 }
